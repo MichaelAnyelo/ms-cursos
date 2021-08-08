@@ -4,5 +4,7 @@ import com.clasejava.microservicios.app.commons.service.CommonService;
 import com.clasejava.microservicios.app.cursos.models.entity.Curso;
 
 public interface CursoService extends CommonService<Curso> {
+	
+	public Curso findCrusoByAlumnoId(Long id);
 
 }
